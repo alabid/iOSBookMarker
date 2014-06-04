@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BMWebBrowserViewController">
+            <connections>
+                <outlet property="view" destination="Fog-GJ-dEc" id="v6S-5b-K86"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController nibName="BMWebBrowserViewController" id="mfo-3F-r0k" customClass="BMWebBrowserViewController">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="LsY-FH-aIE"/>
+                <viewControllerLayoutGuide type="bottom" id="Ifw-vJ-gHn"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="Fog-GJ-dEc">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N2h-EN-JYy">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="274"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </webView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            </view>
+            <toolbarItems>
+                <barButtonItem systemItem="rewind" id="LPe-Ad-VVl">
+                    <connections>
+                        <action selector="goBack" destination="N2h-EN-JYy" id="qMj-Ot-qZB"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="VQ3-S9-0W4"/>
+                <barButtonItem systemItem="stop" id="fR1-qO-GM1">
+                    <connections>
+                        <action selector="stopLoading" destination="N2h-EN-JYy" id="Ums-1n-jIL"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="sQM-YR-4qL"/>
+                <barButtonItem systemItem="refresh" id="Zqq-3t-0XY">
+                    <connections>
+                        <action selector="reload" destination="N2h-EN-JYy" id="CIO-Cu-7p8"/>
+                    </connections>
+                </barButtonItem>
+                <barButtonItem style="plain" systemItem="flexibleSpace" id="W3B-lx-Xua"/>
+                <barButtonItem systemItem="fastForward" id="2yP-qf-UpJ">
+                    <connections>
+                        <action selector="goForward" destination="N2h-EN-JYy" id="qu1-Ua-vod"/>
+                    </connections>
+                </barButtonItem>
+            </toolbarItems>
+            <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+            <nil key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="back" destination="LPe-Ad-VVl" id="yAP-WA-jWq"/>
+                <outlet property="forward" destination="2yP-qf-UpJ" id="oo6-1n-E3r"/>
+                <outlet property="refresh" destination="Zqq-3t-0XY" id="BG5-rY-fOm"/>
+                <outlet property="stop" destination="fR1-qO-GM1" id="uAB-Tj-SGx"/>
+                <outlet property="webView" destination="N2h-EN-JYy" id="0MS-oh-uXa"/>
+            </connections>
+        </viewController>
+    </objects>
+</document>

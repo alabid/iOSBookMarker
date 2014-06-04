@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4FAB9D18FEE26D00624EB0 /* BMWebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FAB9C18FEE26D00624EB0 /* BMWebBrowserViewController.xib */; };
 		3D80D89018FDFBCB00CE8B4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D80D88F18FDFBCB00CE8B4C /* Foundation.framework */; };
 		3D80D89218FDFBCB00CE8B4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D80D89118FDFBCB00CE8B4C /* CoreGraphics.framework */; };
 		3D80D89418FDFBCB00CE8B4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D80D89318FDFBCB00CE8B4C /* UIKit.framework */; };
@@ -22,6 +23,11 @@
 		3D80D8B118FDFBCB00CE8B4C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D80D89518FDFBCB00CE8B4C /* CoreData.framework */; };
 		3D80D8B918FDFBCB00CE8B4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D80D8B718FDFBCB00CE8B4C /* InfoPlist.strings */; };
 		3D80D8BB18FDFBCB00CE8B4C /* BookMarkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D80D8BA18FDFBCB00CE8B4C /* BookMarkTests.m */; };
+		3D80D8C518FDFBDF00CE8B4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D80D8C418FDFBDF00CE8B4C /* Main.storyboard */; };
+		3D80D8C818FE19AC00CE8B4C /* BMMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D80D8C718FE19AC00CE8B4C /* BMMainTableViewController.m */; };
+		3D80D8CB18FE19CA00CE8B4C /* BMAddBookMarkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D80D8CA18FE19CA00CE8B4C /* BMAddBookMarkViewController.m */; };
+		3D80D8CE18FE2DC300CE8B4C /* BMBookMark.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D80D8CD18FE2DC300CE8B4C /* BMBookMark.m */; };
+		3D80D8D118FE564300CE8B4C /* BMWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D80D8D018FE564300CE8B4C /* BMWebBrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +41,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3D80D88C18FDFBCB00CE8B4C /* BookMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D4FAB9C18FEE26D00624EB0 /* BMWebBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BMWebBrowserViewController.xib; sourceTree = "<group>"; };
+		3D80D88C18FDFBCB00CE8B4C /* BookMarker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookMarker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D80D88F18FDFBCB00CE8B4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3D80D89118FDFBCB00CE8B4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3D80D89318FDFBCB00CE8B4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3D80D89518FDFBCB00CE8B4C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		3D80D89918FDFBCB00CE8B4C /* BookMark-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMark-Info.plist"; sourceTree = "<group>"; };
+		3D80D89918FDFBCB00CE8B4C /* BookMarker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMarker-Info.plist"; sourceTree = "<group>"; };
 		3D80D89B18FDFBCB00CE8B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D80D89D18FDFBCB00CE8B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3D80D89F18FDFBCB00CE8B4C /* BookMark-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookMark-Prefix.pch"; sourceTree = "<group>"; };
+		3D80D89F18FDFBCB00CE8B4C /* BookMarker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BookMarker-Prefix.pch"; sourceTree = "<group>"; };
 		3D80D8A018FDFBCB00CE8B4C /* BMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMAppDelegate.h; sourceTree = "<group>"; };
 		3D80D8A118FDFBCB00CE8B4C /* BMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BMAppDelegate.m; sourceTree = "<group>"; };
 		3D80D8A418FDFBCB00CE8B4C /* BookMark.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookMark.xcdatamodel; sourceTree = "<group>"; };
 		3D80D8A618FDFBCB00CE8B4C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3D80D8AC18FDFBCB00CE8B4C /* BookMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D80D8AC18FDFBCB00CE8B4C /* BookMarkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookMarkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D80D8AD18FDFBCB00CE8B4C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3D80D8B618FDFBCB00CE8B4C /* BookMarkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMarkTests-Info.plist"; sourceTree = "<group>"; };
+		3D80D8B618FDFBCB00CE8B4C /* BookMarkerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BookMarkerTests-Info.plist"; sourceTree = "<group>"; };
 		3D80D8B818FDFBCB00CE8B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3D80D8BA18FDFBCB00CE8B4C /* BookMarkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookMarkTests.m; sourceTree = "<group>"; };
+		3D80D8C418FDFBDF00CE8B4C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3D80D8C618FE19AC00CE8B4C /* BMMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMMainTableViewController.h; sourceTree = "<group>"; };
+		3D80D8C718FE19AC00CE8B4C /* BMMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMMainTableViewController.m; sourceTree = "<group>"; };
+		3D80D8C918FE19CA00CE8B4C /* BMAddBookMarkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMAddBookMarkViewController.h; sourceTree = "<group>"; };
+		3D80D8CA18FE19CA00CE8B4C /* BMAddBookMarkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMAddBookMarkViewController.m; sourceTree = "<group>"; };
+		3D80D8CC18FE2DC300CE8B4C /* BMBookMark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBookMark.h; sourceTree = "<group>"; };
+		3D80D8CD18FE2DC300CE8B4C /* BMBookMark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMBookMark.m; sourceTree = "<group>"; };
+		3D80D8CF18FE564300CE8B4C /* BMWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMWebBrowserViewController.h; sourceTree = "<group>"; };
+		3D80D8D018FE564300CE8B4C /* BMWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMWebBrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +100,8 @@
 		3D80D88318FDFBCB00CE8B4C = {
 			isa = PBXGroup;
 			children = (
-				3D80D89718FDFBCB00CE8B4C /* BookMark */,
-				3D80D8B418FDFBCB00CE8B4C /* BookMarkTests */,
+				3D80D89718FDFBCB00CE8B4C /* BookMarker */,
+				3D80D8B418FDFBCB00CE8B4C /* BookMarkerTests */,
 				3D80D88E18FDFBCB00CE8B4C /* Frameworks */,
 				3D80D88D18FDFBCB00CE8B4C /* Products */,
 			);
@@ -94,8 +110,8 @@
 		3D80D88D18FDFBCB00CE8B4C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3D80D88C18FDFBCB00CE8B4C /* BookMark.app */,
-				3D80D8AC18FDFBCB00CE8B4C /* BookMarkTests.xctest */,
+				3D80D88C18FDFBCB00CE8B4C /* BookMarker.app */,
+				3D80D8AC18FDFBCB00CE8B4C /* BookMarkerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,7 +128,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3D80D89718FDFBCB00CE8B4C /* BookMark */ = {
+		3D80D89718FDFBCB00CE8B4C /* BookMarker */ = {
 			isa = PBXGroup;
 			children = (
 				3D80D8A018FDFBCB00CE8B4C /* BMAppDelegate.h */,
@@ -120,34 +136,46 @@
 				3D80D8A618FDFBCB00CE8B4C /* Images.xcassets */,
 				3D80D8A318FDFBCB00CE8B4C /* BookMark.xcdatamodeld */,
 				3D80D89818FDFBCB00CE8B4C /* Supporting Files */,
+				3D80D8C418FDFBDF00CE8B4C /* Main.storyboard */,
+				3D80D8CC18FE2DC300CE8B4C /* BMBookMark.h */,
+				3D80D8CD18FE2DC300CE8B4C /* BMBookMark.m */,
+				3D80D8C618FE19AC00CE8B4C /* BMMainTableViewController.h */,
+				3D80D8C718FE19AC00CE8B4C /* BMMainTableViewController.m */,
+				3D80D8C918FE19CA00CE8B4C /* BMAddBookMarkViewController.h */,
+				3D80D8CA18FE19CA00CE8B4C /* BMAddBookMarkViewController.m */,
+				3D80D8CF18FE564300CE8B4C /* BMWebBrowserViewController.h */,
+				3D80D8D018FE564300CE8B4C /* BMWebBrowserViewController.m */,
+				3D4FAB9C18FEE26D00624EB0 /* BMWebBrowserViewController.xib */,
 			);
+			name = BookMarker;
 			path = BookMark;
 			sourceTree = "<group>";
 		};
 		3D80D89818FDFBCB00CE8B4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D80D89918FDFBCB00CE8B4C /* BookMark-Info.plist */,
+				3D80D89918FDFBCB00CE8B4C /* BookMarker-Info.plist */,
 				3D80D89A18FDFBCB00CE8B4C /* InfoPlist.strings */,
 				3D80D89D18FDFBCB00CE8B4C /* main.m */,
-				3D80D89F18FDFBCB00CE8B4C /* BookMark-Prefix.pch */,
+				3D80D89F18FDFBCB00CE8B4C /* BookMarker-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3D80D8B418FDFBCB00CE8B4C /* BookMarkTests */ = {
+		3D80D8B418FDFBCB00CE8B4C /* BookMarkerTests */ = {
 			isa = PBXGroup;
 			children = (
 				3D80D8BA18FDFBCB00CE8B4C /* BookMarkTests.m */,
 				3D80D8B518FDFBCB00CE8B4C /* Supporting Files */,
 			);
+			name = BookMarkerTests;
 			path = BookMarkTests;
 			sourceTree = "<group>";
 		};
 		3D80D8B518FDFBCB00CE8B4C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3D80D8B618FDFBCB00CE8B4C /* BookMarkTests-Info.plist */,
+				3D80D8B618FDFBCB00CE8B4C /* BookMarkerTests-Info.plist */,
 				3D80D8B718FDFBCB00CE8B4C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -156,9 +184,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3D80D88B18FDFBCB00CE8B4C /* BookMark */ = {
+		3D80D88B18FDFBCB00CE8B4C /* BookMarker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D80D8BE18FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMark" */;
+			buildConfigurationList = 3D80D8BE18FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarker" */;
 			buildPhases = (
 				3D80D88818FDFBCB00CE8B4C /* Sources */,
 				3D80D88918FDFBCB00CE8B4C /* Frameworks */,
@@ -168,14 +196,14 @@
 			);
 			dependencies = (
 			);
-			name = BookMark;
+			name = BookMarker;
 			productName = BookMark;
-			productReference = 3D80D88C18FDFBCB00CE8B4C /* BookMark.app */;
+			productReference = 3D80D88C18FDFBCB00CE8B4C /* BookMarker.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3D80D8AB18FDFBCB00CE8B4C /* BookMarkTests */ = {
+		3D80D8AB18FDFBCB00CE8B4C /* BookMarkerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D80D8C118FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarkTests" */;
+			buildConfigurationList = 3D80D8C118FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarkerTests" */;
 			buildPhases = (
 				3D80D8A818FDFBCB00CE8B4C /* Sources */,
 				3D80D8A918FDFBCB00CE8B4C /* Frameworks */,
@@ -186,9 +214,9 @@
 			dependencies = (
 				3D80D8B318FDFBCB00CE8B4C /* PBXTargetDependency */,
 			);
-			name = BookMarkTests;
+			name = BookMarkerTests;
 			productName = BookMarkTests;
-			productReference = 3D80D8AC18FDFBCB00CE8B4C /* BookMarkTests.xctest */;
+			productReference = 3D80D8AC18FDFBCB00CE8B4C /* BookMarkerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3D80D88718FDFBCB00CE8B4C /* Build configuration list for PBXProject "BookMark" */;
+			buildConfigurationList = 3D80D88718FDFBCB00CE8B4C /* Build configuration list for PBXProject "BookMarker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +246,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3D80D88B18FDFBCB00CE8B4C /* BookMark */,
-				3D80D8AB18FDFBCB00CE8B4C /* BookMarkTests */,
+				3D80D88B18FDFBCB00CE8B4C /* BookMarker */,
+				3D80D8AB18FDFBCB00CE8B4C /* BookMarkerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,6 +259,8 @@
 			files = (
 				3D80D89C18FDFBCB00CE8B4C /* InfoPlist.strings in Resources */,
 				3D80D8A718FDFBCB00CE8B4C /* Images.xcassets in Resources */,
+				3D80D8C518FDFBDF00CE8B4C /* Main.storyboard in Resources */,
+				3D4FAB9D18FEE26D00624EB0 /* BMWebBrowserViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D80D89E18FDFBCB00CE8B4C /* main.m in Sources */,
+				3D80D8CE18FE2DC300CE8B4C /* BMBookMark.m in Sources */,
+				3D80D8D118FE564300CE8B4C /* BMWebBrowserViewController.m in Sources */,
+				3D80D8CB18FE19CA00CE8B4C /* BMAddBookMarkViewController.m in Sources */,
+				3D80D8C818FE19AC00CE8B4C /* BMMainTableViewController.m in Sources */,
 				3D80D8A218FDFBCB00CE8B4C /* BMAppDelegate.m in Sources */,
 				3D80D8A518FDFBCB00CE8B4C /* BookMark.xcdatamodeld in Sources */,
 			);
@@ -268,7 +302,7 @@
 /* Begin PBXTargetDependency section */
 		3D80D8B318FDFBCB00CE8B4C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D80D88B18FDFBCB00CE8B4C /* BookMark */;
+			target = 3D80D88B18FDFBCB00CE8B4C /* BookMarker */;
 			targetProxy = 3D80D8B218FDFBCB00CE8B4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -369,9 +403,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BookMark/BookMark-Prefix.pch";
-				INFOPLIST_FILE = "BookMark/BookMark-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BookMark/BookMarker-Prefix.pch";
+				INFOPLIST_FILE = "BookMark/BookMarker-Info.plist";
+				PRODUCT_NAME = BookMarker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -382,9 +416,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BookMark/BookMark-Prefix.pch";
-				INFOPLIST_FILE = "BookMark/BookMark-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "BookMark/BookMarker-Prefix.pch";
+				INFOPLIST_FILE = "BookMark/BookMarker-Info.plist";
+				PRODUCT_NAME = BookMarker;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -404,8 +438,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BookMarkTests/BookMarkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BookMarkTests/BookMarkerTests-Info.plist";
+				PRODUCT_NAME = BookMarkerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -422,8 +456,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BookMark/BookMark-Prefix.pch";
-				INFOPLIST_FILE = "BookMarkTests/BookMarkTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "BookMarkTests/BookMarkerTests-Info.plist";
+				PRODUCT_NAME = BookMarkerTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -432,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3D80D88718FDFBCB00CE8B4C /* Build configuration list for PBXProject "BookMark" */ = {
+		3D80D88718FDFBCB00CE8B4C /* Build configuration list for PBXProject "BookMarker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D80D8BC18FDFBCB00CE8B4C /* Debug */,
@@ -441,21 +475,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D80D8BE18FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMark" */ = {
+		3D80D8BE18FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D80D8BF18FDFBCB00CE8B4C /* Debug */,
 				3D80D8C018FDFBCB00CE8B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		3D80D8C118FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarkTests" */ = {
+		3D80D8C118FDFBCB00CE8B4C /* Build configuration list for PBXNativeTarget "BookMarkerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3D80D8C218FDFBCB00CE8B4C /* Debug */,
 				3D80D8C318FDFBCB00CE8B4C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

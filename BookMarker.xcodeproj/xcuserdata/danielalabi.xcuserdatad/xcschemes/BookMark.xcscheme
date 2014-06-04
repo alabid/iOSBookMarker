@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D80D88B18FDFBCB00CE8B4C"
-               BuildableName = "BookMark.app"
-               BlueprintName = "BookMark"
-               ReferencedContainer = "container:BookMark.xcodeproj">
+               BuildableName = "BookMarker.app"
+               BlueprintName = "BookMarker"
+               ReferencedContainer = "container:BookMarker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3D80D8AB18FDFBCB00CE8B4C"
-               BuildableName = "BookMarkTests.xctest"
-               BlueprintName = "BookMarkTests"
-               ReferencedContainer = "container:BookMark.xcodeproj">
+               BuildableName = "BookMarkerTests.xctest"
+               BlueprintName = "BookMarkerTests"
+               ReferencedContainer = "container:BookMarker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D80D88B18FDFBCB00CE8B4C"
-            BuildableName = "BookMark.app"
-            BlueprintName = "BookMark"
-            ReferencedContainer = "container:BookMark.xcodeproj">
+            BuildableName = "BookMarker.app"
+            BlueprintName = "BookMarker"
+            ReferencedContainer = "container:BookMarker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D80D88B18FDFBCB00CE8B4C"
-            BuildableName = "BookMark.app"
-            BlueprintName = "BookMark"
-            ReferencedContainer = "container:BookMark.xcodeproj">
+            BuildableName = "BookMarker.app"
+            BlueprintName = "BookMarker"
+            ReferencedContainer = "container:BookMarker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3D80D88B18FDFBCB00CE8B4C"
-            BuildableName = "BookMark.app"
-            BlueprintName = "BookMark"
-            ReferencedContainer = "container:BookMark.xcodeproj">
+            BuildableName = "BookMarker.app"
+            BlueprintName = "BookMarker"
+            ReferencedContainer = "container:BookMarker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
